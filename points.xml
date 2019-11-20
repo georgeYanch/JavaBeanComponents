@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE datatable [
+        <!ELEMENT datatable (dataPoint)*>
+        <!ELEMENT dataPoint (x|y)*>
+        <!ATTLIST dataPoint
+                date CDATA #REQUIRED>
+        <!ELEMENT x (#PCDATA)>
+        <!ELEMENT y (#PCDATA)>
+        ]>
+<datatable>
+    <dataPoint date = "19.03.2018">
+        <x>1.1</x>
+        <y>1.01</y>
+    </dataPoint>
+
+    <dataPoint date = "20.03.2018">
+        <x>2.2</x>
+        <y>2.30</y>
+    </dataPoint>
+
+    <dataPoint date = "21.03.2018">
+        <x>3.3</x>
+        <y>3.05</y>
+    </dataPoint>
+
+    <dataPoint date = "22.03.2018">
+        <x>4.4</x>
+        <y>4.28</y>
+    </dataPoint>
+
+    <dataPoint date = "23.03.2018">
+        <x>5.5</x>
+        <y>5.75</y>
+    </dataPoint>
+
+    <dataPoint date = "24.03.2018">
+        <x>6.6</x>
+        <y>6.48</y>
+    </dataPoint>
+
+    <dataPoint date = "25.03.2018">
+        <x>7.7</x>
+        <y>7.84</y>
+    </dataPoint>
+
+</datatable>
